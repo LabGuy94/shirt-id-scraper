@@ -20,7 +20,7 @@ headers = {
 }
 
 
-frontpage = requests.get("https://catalog.roblox.com/v1/search/items?category=Clothing&cursor=2_1_ebe070af2c87386a00202b3f4b0f9316&limit=60&subcategory=ClassicShirts").json()
+frontpage = requests.get("https://catalog.roblox.com/v1/search/items?category=Clothing&cursor=&limit=60&subcategory=ClassicShirts").json()
 
 
 def scrapegroup(groupid, cursor=None):
